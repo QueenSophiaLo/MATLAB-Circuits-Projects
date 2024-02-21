@@ -3,7 +3,7 @@ sampleaudio.mat is a file that contains corrupted digital audio. A 60Hz “hum�
 To start this problem, download the file “sampleaudio.mat” and place it in your working 
 directory. This directory should be the same one where you are writing your scripts. You can load this file with the following command:
 
->> load(‘sampleaudio.mat’);
+`>> load(‘sampleaudio.mat’);`
 
 Once you run this code, you will have the following two variables loaded into your workspace:
 • x: This is a vector containing the audio file data. 
@@ -11,7 +11,7 @@ Once you run this code, you will have the following two variables loaded into yo
 
 To listen to the sound, use the following command:
 
->> sound(x,Fs);
+`>> sound(x,Fs);`
 
 You will hear the 60Hz distortion. We will now remove it.
 
@@ -23,6 +23,10 @@ b) Convert the differential equation from part a into an equivalent discrete-tim
 
 c) Write a MATLAB script that filters the audio signal x. Using what you are given about this problem, choose a reasonable value for Δ𝑡𝑡 and explain. Use 𝑅𝑅 = 1Ω and 𝐶𝐶 = 265.26𝜇𝜇𝜇𝜇
 
-d) Play 𝑦𝑦 using the command sound(y,Fs). You should be able to hear a clear sentence. Please provide this sentence.
+Play 𝑦 using the command `sound(y,Fs)`. You should be able to hear a clear sentence.
 
-e) Using subplot, show the input x(t) and the output y(t). It should be clear that this is a large signal that has been removed. Make sure to properly label the axes in your plots. 
+
+When comparing the two subplots diaplaying input x(t) and output y(t) signals, it is clear a large signal has been removed. From these graphs, it is evident the high pass filter has worked.
+
+![AudioFilteringSubplots](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/blob/main/Project%201/Images/AudioFilteringInputOutputGraphs.PNG)
+
