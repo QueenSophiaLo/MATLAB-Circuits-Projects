@@ -28,9 +28,24 @@ Write the differential equation that solves for the voltage 𝑦(𝑡) across th
 > Voltage across the capacitor is defined by the following equation $V_{in} - V_{out} = 0$, which can also be written as $V_{in} = V_{out}$.
 >
 > The current running across the output resistor can be solved by the following; $I(t) = C\frac{dV_c}{dt}\ = C\frac{d}{dt}\ (V_{in} - V_{out}) = C(\frac{dV_{in}}{dt}\ - \frac{dV_{out}}{dt}\)$
+>
+> Using Ohm's Law, we know that $Voltage = Resistance * Current$. We can extrapolate this equation to solve for voltage across the resistor. Using the calculated differential equations above for current, the final equation results in the following;
+> $V_{out} = RC(\frac{dV_{in}}{dt}\ - \frac{dV_{out}}{dt}\)$
 
 ### Discretization
 Convert the differential equation into an equivalent discrete-time equation. To write the discrete-time equation, you will need to derive it. You cannot simply pattern-match in this case because of the 𝑑𝑥/𝑑𝑡.
+
+> Taking the equation $V_{out} = RC(\frac{dV_{in}}{dt}\ - \frac{dV_{out}}{dt}\)$, first simplify the variables for readability; $x = V_{in}$ and $y = V_{out}$.
+>
+> Now, apply approximations for both differential equations $x$ and $y$;
+>
+>  $\frac{dx}{dt}\ \approx\ \frac{x(n+1) - x(n)}{Δt}\$   and   $\frac{dy}{dt}\ \approx\ \frac{y(n+1) - y(n)}{Δt}\$
+>
+> The differential equation now becomes $y(n) = RC(\frac{x(n+1) - x(n)}{Δt}\ - \frac{y(n+1) - y(n)}{Δt}\)$
+>
+> Rearranging the above equation results in the following discretized equation;
+>
+> $y(n+1) = \frac{RC}{RC + Δt}\[y(n) + x(n+1) - x(n)]$
 
 ### The following is a MATLAB script that filters the audio signal x
 Δ𝑡 was chosen to be equal to $\frac{1}{Fs}\$ so that the sampling frequency data points can be considered in the output 𝑦(𝑡).
