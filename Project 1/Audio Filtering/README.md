@@ -37,8 +37,8 @@ Write the differential equation that solves for the voltage 𝑦(𝑡) across th
 Convert the differential equation into an equivalent discrete-time equation. To write the discrete-time equation, you will need to derive it. You cannot simply pattern-match in this case because of the $\frac{dx}{dt}\$.
 
 > Taking the equation $V_{out} = RC(\frac{dV_{in}}{dt}\ - \frac{dV_{out}}{dt}\)$, first simplify the variables for readability.
-> $$x = V_{in}$$
-> $$y = V_{out}$$
+>
+> $$\begin{matrix} x=V_{in} & \text{ and } & y=V_{out} \end{matrix}$$
 >
 > Now, apply approximations for both differential equations $x$ and $y$.
 > $$\frac{dx}{dt}\ \approx\ \frac{x(n+1) - x(n)}{Δt}\$$
