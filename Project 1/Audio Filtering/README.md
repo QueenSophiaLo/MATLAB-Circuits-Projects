@@ -23,7 +23,7 @@ Since most audio signals are above 60Hz, we will attempt to clean the signal usi
 ![AudioFilterDigitalCircuit](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/blob/main/Project%201/Images/AudioFilterEquivilentDigitalCircuit.PNG)
 
 ### Writing the Differential Equation
-Write the differential equation that solves for the voltage 𝑦(𝑡) across the resistor in terms of 𝑅 and 𝐶. Hint: Write the voltage across the capacitor in terms of the source voltage 𝑥(𝑡) and the resistor voltage 𝑦(𝑡). Recall that 𝑦(𝑡) = 𝑖(𝑡)𝑅. Your final differential equation will include both 𝑑𝑥/𝑑𝑡 and 𝑑𝑦/𝑑𝑡.
+Write the differential equation that solves for the voltage 𝑦(𝑡) across the resistor in terms of 𝑅 and 𝐶. Hint: Write the voltage across the capacitor in terms of the source voltage 𝑥(𝑡) and the resistor voltage 𝑦(𝑡). Recall that $𝑦(𝑡) = 𝑖(𝑡)𝑅$. Your final differential equation will include both $\frac{dx}{dt}\$ and $\frac{dy}{dt}\$.
 
 > Voltage across the capacitor is defined by the following equation $V_{in} - V_{out} = 0$, which can also be written as $V_{in} = V_{out}$ .
 >
@@ -34,7 +34,7 @@ Write the differential equation that solves for the voltage 𝑦(𝑡) across th
 > $$V_{out} = RC(\frac{dV_{in}}{dt}\ - \frac{dV_{out}}{dt}\)$$
 
 ### Discretization
-Convert the differential equation into an equivalent discrete-time equation. To write the discrete-time equation, you will need to derive it. You cannot simply pattern-match in this case because of the 𝑑𝑥/𝑑𝑡.
+Convert the differential equation into an equivalent discrete-time equation. To write the discrete-time equation, you will need to derive it. You cannot simply pattern-match in this case because of the $\frac{dx}{dt}\$.
 
 > Taking the equation $V_{out} = RC(\frac{dV_{in}}{dt}\ - \frac{dV_{out}}{dt}\)$, first simplify the variables for readability.
 > $$x = V_{in}$$
