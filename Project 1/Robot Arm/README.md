@@ -18,7 +18,12 @@ Newton's Second Law for Rotation states that the torque acting on an object is e
 > 	Iα & = & τ
 > \end{array}$$
 
-Which can be represented mathematically as:
+Where:
+ * **τ** (Torque Generation) In a DC motor, torque is generated when current flows through the coils placed in a magnetic field, resulting in a force that drives the rotation of the motor shaft. This torque is directly proportional to the current passing through the motor, and it is what drives the movement of the robot arm.
+ * **$I$** (The Moment of Inertia) For a robot arm, the moment of inertia depends on the distribution of mass around the axis of rotation. Generally, the larger the moment of inertia, the more torque is required to accelerate or decelerate the arm.
+ * **α** (Angular Accelaration) Represents how quickly the rotational velocity of the motor changes. It is influenced by both the applied torque and the moment of inertia. The greater the torque applied, or the smaller the moment of inertia, the faster the angular acceleration.
+
+Newton's Second Law for Rotation can also be represented mathematically as:
 > $$J\frac{dΩ}{dt} = Ki_a - 𝛽Ω$$
 
 Where:
@@ -26,7 +31,7 @@ Where:
   * **𝐽**: Moment of inertia
   * **𝐾**: Motor constant (This is the same one in the circuit model)
 
-The motor you are controlling is connected to a robot arm, and it has the following parameter values:
+The motor being controlled is connected to a robot arm, and has the following parameter values:
   * **𝐿** = 0.01 𝐻
   * **𝑅** = 3.38 𝑂ℎ𝑚s
   * **𝐾** = 0.029 $𝑉s/𝑟ad$
