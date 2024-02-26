@@ -25,11 +25,17 @@ Since most audio signals are above 60Hz, we will attempt to clean the signal usi
 ### Writing the Differential Equation
 Write the differential equation that solves for the voltage 𝑦(𝑡) across the resistor in terms of 𝑅 and 𝐶. Hint: Write the voltage across the capacitor in terms of the source voltage 𝑥(𝑡) and the resistor voltage 𝑦(𝑡). Recall that $𝑦(𝑡) = 𝑖(𝑡)𝑅$. Your final differential equation will include both $\frac{dx}{dt}\$ and $\frac{dy}{dt}\$.
 
+<!-- $$I(t) = C\frac{dV_c}{dt}\ = C\frac{d}{dt}\ (V_{in} - V_{out}) = C(\frac{dV_{in}}{dt}\ - \frac{dV_{out}}{dt}\)$$ -->
 > Voltage across the capacitor is defined by the following equation $V_{in} - V_{out} = 0$, which can also be written as $V_{in} = V_{out}$ .
 >
 > The current running across the output resistor can be solved by the following;
-> $$I(t) = C\frac{dV_c}{dt}\ = C\frac{d}{dt}\ (V_{in} - V_{out}) = C(\frac{dV_{in}}{dt}\ - \frac{dV_{out}}{dt}\)$$
 >
+> $$\begin{array}{lll}
+>  	I(t) & = & C\frac{dV_c}{dt}\\
+> 	& = & C\frac{d}{dt}\ (V_{in} - V_{out})\\
+> 	& = & C(\frac{dV_{in}}{dt}\ - \frac{dV_{out}}{dt}\)
+> \end{array}$$
+> 
 > Using Ohm's Law, we know that $Voltage = Resistance * Current$. We can extrapolate this equation to solve for voltage across the resistor. Using the calculated differential equations above for current, the final equation results in the following;
 > $$V_{out} = RC(\frac{dV_{in}}{dt}\ - \frac{dV_{out}}{dt}\)$$
 
