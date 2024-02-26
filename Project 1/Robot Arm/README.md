@@ -1,4 +1,4 @@
-# DC Motor for a Robot Arm
+# DC Motor Control for a Robot Arm
 ### Introduction
 The below circuit model displays a DC motor which controls a robot arm:
 
