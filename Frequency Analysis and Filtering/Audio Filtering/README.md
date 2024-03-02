@@ -20,7 +20,7 @@ You will hear the 60Hz distortion. We will now remove it.
 
 Since most audio signals are above 60Hz, we will attempt to clean the signal using a “high pass” digital filter. To create this digital filter, we are going to make a digital quivalent to the following circuit. The voltage source 𝑥(𝑡) would be the audio source, and the voltage 𝑦(𝑡) would be the filtered audio.
 
-![AudioFilterDigitalCircuit](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/blob/main/Project%201/Images/AudioFilterEquivilentDigitalCircuit.PNG)
+![AudioFilterDigitalCircuit](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/blob/main/Images/AudioFilterEquivilentDigitalCircuit.PNG)
 
 ### Writing the Differential Equation
 Write the differential equation that solves for the voltage 𝑦(𝑡) across the resistor in terms of 𝑅 and 𝐶. Hint: Write the voltage across the capacitor in terms of the source voltage 𝑥(𝑡) and the resistor voltage 𝑦(𝑡). Recall that $𝑦(𝑡) = 𝑖(𝑡)𝑅$. Your final differential equation will include both $\frac{dx}{dt}\$ and $\frac{dy}{dt}\$.
@@ -91,9 +91,9 @@ plot(t,x)
 
 Play 𝑦 using the command `sound(y,Fs)`. You should be able to hear a clear sentence.
 
-![Sentence](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/blob/main/Project%201/Images/IfOnlyYouKnewThePowerOfTheDarkSideQuote.PNG)
+![Sentence](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/blob/main/Images/If%20Only%20You%20Knew%20The%20Power%20Of%20The%20Dark%20Side%20Quote.PNG)
 
 When comparing the two subplots diaplaying input 𝑥(𝑡) and output 𝑦(𝑡) signals, it is clear a large signal has been removed. From these graphs, it is evident the high pass filter has worked.
 
-![AudioFilteringSubplots](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/blob/main/Project%201/Images/AudioFilteringInputOutputGraphs.PNG)
+![AudioFilteringSubplots](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/blob/main/Images/AudioFilteringInputOutputGraphs.PNG)
 
