@@ -39,3 +39,9 @@ The motor being controlled is connected to a robot arm, and has the following pa
   * **𝛽** = 0.5 × 10−5 $𝑁ms/𝑟ad$
 
 The speed and position of the motor over time will be simulated.
+
+### Finding the Electrical Differential Equation
+
+### Discretizing the Equation
+
+### Determining the Time Step
