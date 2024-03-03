@@ -1,8 +1,8 @@
 # MATLAB Circuit Projects
 ### Description
-This repository contains some MATLAB projects overviewing Computer and Electrical Engineering concepts... (TODO)
+This repository contains some MATLAB projects overviewing Computer and Electrical Engineering concepts... (TODO: finish description)
 
-Why use matlab? lol (TODO)
+Why use matlab? lol (TODO: finish description)
 https://www.mathworks.com/solutions/electrical-computer-engineering.html#:~:text=MATLAB%20and%20Simulink%20are%20used%20to%20teach%20fundamental,controls%20theory%2C%20signal%20processing%2C%20power%20transmission%2C%20and%20robotics.
 
 # Table of Contents
