@@ -1,9 +1,9 @@
 # MATLAB Circuit Projects
 ### Description
-Here is a repository 
+This repository contains some MATLAB projects overviewing Computer and Electrical Engineering concepts... (TODO)
 
-(add links)
-(include Small Descriptions for each project)
+Why use matlab? lol (TODO)
+https://www.mathworks.com/solutions/electrical-computer-engineering.html#:~:text=MATLAB%20and%20Simulink%20are%20used%20to%20teach%20fundamental,controls%20theory%2C%20signal%20processing%2C%20power%20transmission%2C%20and%20robotics.
 
 # Table of Contents
 ### Circuit Simulation
@@ -13,11 +13,9 @@ Here is a repository
 
 ### Frequency Analysis and Filtering
   * **[Audio Filtering](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/tree/main/Frequency%20Analysis%20and%20Filtering/Audio%20Filtering)**
-(high pass filter)
   * **[Complex Communications](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/tree/main/Frequency%20Analysis%20and%20Filtering/Complex%20Communications)**
   * **[Touch Tone Recognition System](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/tree/main/Frequency%20Analysis%20and%20Filtering/Touch%20Tone%20Recognition%20System)**
   * **[Traditional Communications](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/tree/main/Frequency%20Analysis%20and%20Filtering/Traditional%20Communications)**
-(digital Low pass filter)
 
 ### Signal Processing Using Transfer Functions
   * **[Filtering a Signal for Control](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/tree/main/Signal%20Processing%20Using%20Transfer%20Functions/Filtering%20a%20Signal%20for%20Control)**
