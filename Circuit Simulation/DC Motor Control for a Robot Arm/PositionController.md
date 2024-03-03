@@ -1,13 +1,16 @@
 # Providing a Position Controller for the DC Motor
 ### Description
- Now, you are going to provide a position controller for the DC motor. In this case, we want 
+Now, we are going to provide a position controller for the DC motor. In this case, we want 
 to control the angle of the machine. This means we need to add one more differential 
 equation from physics to relate the angle of the rotor to the speed of the rotor. This 
 differential equation is:
-Ω = 𝑑𝑑𝑑𝑑
-𝑑𝑑𝑑𝑑
-Add this differential equation to your previous code and modify it. Include subplots with 
-𝑖𝑖𝑎𝑎(𝑡𝑡), Ω(𝑡𝑡), and 𝜃𝜃(𝑡𝑡). 
+
+$$Ω = \frac{𝑑𝜃}{𝑑𝑡}$$
+
+Adding this differential equation to the previous code written in (TODO: ADD AND LINK FILE NAME) and including subplots to show 𝑖𝑎(𝑡), Ω(𝑡), and 𝜃(𝑡) results in the following:
+
+``` TODO: ADD CODE HERE ```
+
 f) Position controller: We want to design a control system that forces the rotor to spin from 
 𝜃𝜃 = 0 to 𝜃𝜃 = 𝜋𝜋/4 radians. Please note that I am using radians here since the motor speed 
 is measured in radians per second. 
