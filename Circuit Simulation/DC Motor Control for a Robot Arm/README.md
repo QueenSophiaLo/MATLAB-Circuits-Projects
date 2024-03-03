@@ -2,7 +2,7 @@
 ### Introduction
 The below circuit model displays a DC motor which controls a robot arm:
 
-![DCMotorCircuit](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/blob/main/Project%201/Images/DC%20Robot%20Arm%20Motor.png)
+![DCMotorCircuit](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/blob/main/Images/DC%20Robot%20Arm%20Motor.png)
 
 Seen in the model are the following:
   * **Ω(𝑡)**: This is the speed of the motor in rad/sec
