@@ -1,4 +1,4 @@
-# MATLAB-Circuits-Projects
+# MATLAB Circuit Projects
 ### Description
 Here is a repository 
 
