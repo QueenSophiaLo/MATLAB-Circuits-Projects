@@ -1,9 +1,9 @@
 # MATLAB Circuit Projects
 ### Description
-This repository contains some MATLAB projects overviewing Computer and Electrical Engineering concepts... (TODO: finish description)
+This repository contains some MATLAB projects overviewing Computer and Electrical Engineering concepts. The table of contents can be found below. I have broken up my collection of projects into three basic themes; [Circuit Simulation](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/tree/main/Circuit%20Simulation), [Frequency Analysis and Filtering](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/tree/main/Frequency%20Analysis%20and%20Filtering), and [Signal Processing Using Transfer Functions](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/tree/main/Signal%20Processing%20Using%20Transfer%20Functions).
 
-Why use matlab? lol (TODO: finish description)
-https://www.mathworks.com/solutions/electrical-computer-engineering.html#:~:text=MATLAB%20and%20Simulink%20are%20used%20to%20teach%20fundamental,controls%20theory%2C%20signal%20processing%2C%20power%20transmission%2C%20and%20robotics.
+### Why Use [MATLAB](https://www.mathworks.com/products/matlab.html)?
+MATLAB is commonly used when teaching math and engineering concepts due to its ability to blend theoretical understanding and practical applications. Through MATLAB, foundational electrical system principles can be taught through numerical computing, simulation and modeling, as well as project-based learning. Topics include circuit design, controls theory, signal processing, power transmission, and robotics. Educators can build upon concepts in an interactive manner and incorporate deployment on embedded systems through a single environment. More information can be found [here](https://www.mathworks.com/solutions/electrical-computer-engineering.html#:~:text=MATLAB%20and%20Simulink%20are%20used%20to%20teach%20fundamental,controls%20theory%2C%20signal%20processing%2C%20power%20transmission%2C%20and%20robotics).
 
 # Table of Contents
 ### Circuit Simulation
