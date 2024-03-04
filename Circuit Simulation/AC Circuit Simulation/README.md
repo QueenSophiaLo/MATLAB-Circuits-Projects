@@ -1,4 +1,4 @@
-# AC Circuit Simulation
+# AC Circuit Simulation (TODO:FINISHME!!!)
 ### Introduction
 In power-system analysis, it is common to use simulation software to understand the transient conditions that can easily damage equipment. This problem examines an important issue that frequently occur in practice.
 
