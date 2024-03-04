@@ -47,3 +47,4 @@ The speed and position of the motor over time will be simulated.
 ### Determining the Time Step
 
 ### [Providing a Position Controller for the DC Motor](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/blob/main/Circuit%20Simulation/DC%20Motor%20Control%20for%20a%20Robot%20Arm/PositionController.md)
+Explanation continued on this page*
