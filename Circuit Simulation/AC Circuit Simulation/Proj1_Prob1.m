@@ -6,7 +6,7 @@ clc;
 R = 0.1;        % Resistance
 L = 0.0045;     % Inductance
 tau = L/R;      % = 0.045
-delta_t_1 = 0.00016;        % time step
+delta_t_1 = 0.00016;    % time step
 phi = deg2rad(0);       % angle
 
 t = 0 : delta_t_1 : 7*tau;
