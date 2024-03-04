@@ -1,6 +1,6 @@
 # A PWM Motor Drive
 ### Introduction
-In the previous problem, [DC Motor Control for a Robot Arm](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/tree/main/Circuit%20Simulation/DC%20Motor%20Control%20for%20a%20Robot%20Arm), a model for the DC motor was shown.
+In the previous problem - [DC Motor Control for a Robot Arm](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/tree/main/Circuit%20Simulation/DC%20Motor%20Control%20for%20a%20Robot%20Arm), a model for the DC motor was shown.
 The circuit model for that problem is displayed below. Note that the model includes a speed-dependent voltage source.
 
 ![DCMotorCircuit](https://github.com/QueenSophiaLo/MATLAB-Circuits-Projects/blob/main/Images/DC%20Robot%20Arm%20Motor.png)
